@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		731A174627CC700D00CF1A68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731A174527CC700D00CF1A68 /* AppDelegate.swift */; };
+		731A174827CC700D00CF1A68 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731A174727CC700D00CF1A68 /* SceneDelegate.swift */; };
+		731A174A27CC700D00CF1A68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731A174927CC700D00CF1A68 /* ViewController.swift */; };
+		731A174D27CC700D00CF1A68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 731A174B27CC700D00CF1A68 /* Main.storyboard */; };
+		731A174F27CC700E00CF1A68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 731A174E27CC700E00CF1A68 /* Assets.xcassets */; };
+		731A175227CC700E00CF1A68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 731A175027CC700E00CF1A68 /* LaunchScreen.storyboard */; };
+		731A175D27CC700E00CF1A68 /* LA3__renda_CF_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731A175C27CC700E00CF1A68 /* LA3__renda_CF_Tests.swift */; };
+		731A176727CC700E00CF1A68 /* LA3__renda_CF_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731A176627CC700E00CF1A68 /* LA3__renda_CF_UITests.swift */; };
+		731A176927CC700E00CF1A68 /* LA3__renda_CF_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731A176827CC700E00CF1A68 /* LA3__renda_CF_UITestsLaunchTests.swift */; };
+		731A177827CC792C00CF1A68 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 731A177727CC792C00CF1A68 /* FirebaseFirestore */; };
+		731A177A27CC7A9E00CF1A68 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 731A177927CC7A9E00CF1A68 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		731A175927CC700E00CF1A68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 731A173A27CC700D00CF1A68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 731A174127CC700D00CF1A68;
+			remoteInfo = "LA3_ renda(CF)";
+		};
+		731A176327CC700E00CF1A68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 731A173A27CC700D00CF1A68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 731A174127CC700D00CF1A68;
+			remoteInfo = "LA3_ renda(CF)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		731A174227CC700D00CF1A68 /* LA3_ renda(CF).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LA3_ renda(CF).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		731A174527CC700D00CF1A68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		731A174727CC700D00CF1A68 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		731A174927CC700D00CF1A68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		731A174C27CC700D00CF1A68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		731A174E27CC700E00CF1A68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		731A175127CC700E00CF1A68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		731A175327CC700E00CF1A68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		731A175827CC700E00CF1A68 /* LA3_ renda(CF)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LA3_ renda(CF)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		731A175C27CC700E00CF1A68 /* LA3__renda_CF_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LA3__renda_CF_Tests.swift; sourceTree = "<group>"; };
+		731A176227CC700E00CF1A68 /* LA3_ renda(CF)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LA3_ renda(CF)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		731A176627CC700E00CF1A68 /* LA3__renda_CF_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LA3__renda_CF_UITests.swift; sourceTree = "<group>"; };
+		731A176827CC700E00CF1A68 /* LA3__renda_CF_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LA3__renda_CF_UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		731A177927CC7A9E00CF1A68 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		731A173F27CC700D00CF1A68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				731A177827CC792C00CF1A68 /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		731A175527CC700E00CF1A68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		731A175F27CC700E00CF1A68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		731A173927CC700D00CF1A68 = {
+			isa = PBXGroup;
+			children = (
+				731A174427CC700D00CF1A68 /* LA3_ renda(CF) */,
+				731A175B27CC700E00CF1A68 /* LA3_ renda(CF)Tests */,
+				731A176527CC700E00CF1A68 /* LA3_ renda(CF)UITests */,
+				731A174327CC700D00CF1A68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		731A174327CC700D00CF1A68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				731A174227CC700D00CF1A68 /* LA3_ renda(CF).app */,
+				731A175827CC700E00CF1A68 /* LA3_ renda(CF)Tests.xctest */,
+				731A176227CC700E00CF1A68 /* LA3_ renda(CF)UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		731A174427CC700D00CF1A68 /* LA3_ renda(CF) */ = {
+			isa = PBXGroup;
+			children = (
+				731A174527CC700D00CF1A68 /* AppDelegate.swift */,
+				731A174727CC700D00CF1A68 /* SceneDelegate.swift */,
+				731A174927CC700D00CF1A68 /* ViewController.swift */,
+				731A174B27CC700D00CF1A68 /* Main.storyboard */,
+				731A174E27CC700E00CF1A68 /* Assets.xcassets */,
+				731A175027CC700E00CF1A68 /* LaunchScreen.storyboard */,
+				731A175327CC700E00CF1A68 /* Info.plist */,
+				731A177927CC7A9E00CF1A68 /* GoogleService-Info.plist */,
+			);
+			path = "LA3_ renda(CF)";
+			sourceTree = "<group>";
+		};
+		731A175B27CC700E00CF1A68 /* LA3_ renda(CF)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				731A175C27CC700E00CF1A68 /* LA3__renda_CF_Tests.swift */,
+			);
+			path = "LA3_ renda(CF)Tests";
+			sourceTree = "<group>";
+		};
+		731A176527CC700E00CF1A68 /* LA3_ renda(CF)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				731A176627CC700E00CF1A68 /* LA3__renda_CF_UITests.swift */,
+				731A176827CC700E00CF1A68 /* LA3__renda_CF_UITestsLaunchTests.swift */,
+			);
+			path = "LA3_ renda(CF)UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		731A174127CC700D00CF1A68 /* LA3_ renda(CF) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 731A176C27CC700E00CF1A68 /* Build configuration list for PBXNativeTarget "LA3_ renda(CF)" */;
+			buildPhases = (
+				731A173E27CC700D00CF1A68 /* Sources */,
+				731A173F27CC700D00CF1A68 /* Frameworks */,
+				731A174027CC700D00CF1A68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LA3_ renda(CF)";
+			packageProductDependencies = (
+				731A177727CC792C00CF1A68 /* FirebaseFirestore */,
+			);
+			productName = "LA3_ renda(CF)";
+			productReference = 731A174227CC700D00CF1A68 /* LA3_ renda(CF).app */;
+			productType = "com.apple.product-type.application";
+		};
+		731A175727CC700E00CF1A68 /* LA3_ renda(CF)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 731A176F27CC700E00CF1A68 /* Build configuration list for PBXNativeTarget "LA3_ renda(CF)Tests" */;
+			buildPhases = (
+				731A175427CC700E00CF1A68 /* Sources */,
+				731A175527CC700E00CF1A68 /* Frameworks */,
+				731A175627CC700E00CF1A68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				731A175A27CC700E00CF1A68 /* PBXTargetDependency */,
+			);
+			name = "LA3_ renda(CF)Tests";
+			productName = "LA3_ renda(CF)Tests";
+			productReference = 731A175827CC700E00CF1A68 /* LA3_ renda(CF)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		731A176127CC700E00CF1A68 /* LA3_ renda(CF)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 731A177227CC700E00CF1A68 /* Build configuration list for PBXNativeTarget "LA3_ renda(CF)UITests" */;
+			buildPhases = (
+				731A175E27CC700E00CF1A68 /* Sources */,
+				731A175F27CC700E00CF1A68 /* Frameworks */,
+				731A176027CC700E00CF1A68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				731A176427CC700E00CF1A68 /* PBXTargetDependency */,
+			);
+			name = "LA3_ renda(CF)UITests";
+			productName = "LA3_ renda(CF)UITests";
+			productReference = 731A176227CC700E00CF1A68 /* LA3_ renda(CF)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		731A173A27CC700D00CF1A68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					731A174127CC700D00CF1A68 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					731A175727CC700E00CF1A68 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 731A174127CC700D00CF1A68;
+					};
+					731A176127CC700E00CF1A68 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 731A174127CC700D00CF1A68;
+					};
+				};
+			};
+			buildConfigurationList = 731A173D27CC700D00CF1A68 /* Build configuration list for PBXProject "LA3_ renda(CF)" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 731A173927CC700D00CF1A68;
+			packageReferences = (
+				731A177627CC792C00CF1A68 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 731A174327CC700D00CF1A68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				731A174127CC700D00CF1A68 /* LA3_ renda(CF) */,
+				731A175727CC700E00CF1A68 /* LA3_ renda(CF)Tests */,
+				731A176127CC700E00CF1A68 /* LA3_ renda(CF)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		731A174027CC700D00CF1A68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				731A175227CC700E00CF1A68 /* LaunchScreen.storyboard in Resources */,
+				731A177A27CC7A9E00CF1A68 /* GoogleService-Info.plist in Resources */,
+				731A174F27CC700E00CF1A68 /* Assets.xcassets in Resources */,
+				731A174D27CC700D00CF1A68 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		731A175627CC700E00CF1A68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		731A176027CC700E00CF1A68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		731A173E27CC700D00CF1A68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				731A174A27CC700D00CF1A68 /* ViewController.swift in Sources */,
+				731A174627CC700D00CF1A68 /* AppDelegate.swift in Sources */,
+				731A174827CC700D00CF1A68 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		731A175427CC700E00CF1A68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				731A175D27CC700E00CF1A68 /* LA3__renda_CF_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		731A175E27CC700E00CF1A68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				731A176727CC700E00CF1A68 /* LA3__renda_CF_UITests.swift in Sources */,
+				731A176927CC700E00CF1A68 /* LA3__renda_CF_UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		731A175A27CC700E00CF1A68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 731A174127CC700D00CF1A68 /* LA3_ renda(CF) */;
+			targetProxy = 731A175927CC700E00CF1A68 /* PBXContainerItemProxy */;
+		};
+		731A176427CC700E00CF1A68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 731A174127CC700D00CF1A68 /* LA3_ renda(CF) */;
+			targetProxy = 731A176327CC700E00CF1A68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		731A174B27CC700D00CF1A68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				731A174C27CC700D00CF1A68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		731A175027CC700E00CF1A68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				731A175127CC700E00CF1A68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		731A176A27CC700E00CF1A68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		731A176B27CC700E00CF1A68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		731A176D27CC700E00CF1A68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 556GQC7YFH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "LA3_ renda(CF)/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.sakuma.double.LA3--renda-CF-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		731A176E27CC700E00CF1A68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 556GQC7YFH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "LA3_ renda(CF)/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.sakuma.double.LA3--renda-CF-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		731A177027CC700E00CF1A68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 556GQC7YFH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.sakuma.double.LA3--renda-CF-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LA3_ renda(CF).app/LA3_ renda(CF)";
+			};
+			name = Debug;
+		};
+		731A177127CC700E00CF1A68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 556GQC7YFH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.sakuma.double.LA3--renda-CF-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LA3_ renda(CF).app/LA3_ renda(CF)";
+			};
+			name = Release;
+		};
+		731A177327CC700E00CF1A68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 556GQC7YFH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.sakuma.double.LA3--renda-CF-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "LA3_ renda(CF)";
+			};
+			name = Debug;
+		};
+		731A177427CC700E00CF1A68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 556GQC7YFH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.sakuma.double.LA3--renda-CF-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "LA3_ renda(CF)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		731A173D27CC700D00CF1A68 /* Build configuration list for PBXProject "LA3_ renda(CF)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				731A176A27CC700E00CF1A68 /* Debug */,
+				731A176B27CC700E00CF1A68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		731A176C27CC700E00CF1A68 /* Build configuration list for PBXNativeTarget "LA3_ renda(CF)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				731A176D27CC700E00CF1A68 /* Debug */,
+				731A176E27CC700E00CF1A68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		731A176F27CC700E00CF1A68 /* Build configuration list for PBXNativeTarget "LA3_ renda(CF)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				731A177027CC700E00CF1A68 /* Debug */,
+				731A177127CC700E00CF1A68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		731A177227CC700E00CF1A68 /* Build configuration list for PBXNativeTarget "LA3_ renda(CF)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				731A177327CC700E00CF1A68 /* Debug */,
+				731A177427CC700E00CF1A68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		731A177627CC792C00CF1A68 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		731A177727CC792C00CF1A68 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 731A177627CC792C00CF1A68 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 731A173A27CC700D00CF1A68 /* Project object */;
+}
